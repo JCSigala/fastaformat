@@ -10,7 +10,7 @@ Authors@R:
 Description: Edit fasta identifiers to have only names of organisms, 
              make alignements and phylogenetic trees.
 License: Artistic-2.0
-URL: https://github.com/JCSigala/fastaformat
+URL: https://github.com/JCSigala/fastaformat, https://jcsigala.github.io/fastaformat/
 BugReports: https://support.bioconductor.org/tag/fastaformat
 biocViews: Software
 Encoding: UTF-8
