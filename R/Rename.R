@@ -7,17 +7,19 @@
 #' Función para cambiar los encabezados de archvios fasta de tal forma que quede
 #' sólo el nombre de los organismos.
 #'
-#' @param input
+#' @param fastafile archivo fasta
 #' @import stringr
 #'
 #' @return Archivo fasta con los encabezados modificados
 #' @export
 #'
 #' @examples
-#'
-renameFasta <- function(input) {
+#' fastapath <- system.file("extdata", "Protseq.txt", package = "fastaformat")
+#' renameFasta(fastapath)
+
+renameFasta <- function(fastafile) {
     # Read the file into a character vector
-    text <- readLines("Protseq.txt")
+    text <- readLines(fastafile)
 
     # Apply the substitution using a regular expression
     text_modified <- str_replace_all(text, ">.*\\[([^]]*)\\].*", ">\\1")

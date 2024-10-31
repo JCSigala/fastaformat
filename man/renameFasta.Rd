@@ -4,7 +4,10 @@
 \alias{renameFasta}
 \title{Renombrar encabezados de archivo fasta.}
 \usage{
-renameFasta(input)
+renameFasta(fastafile)
+}
+\arguments{
+\item{fastafile}{archivo fasta}
 }
 \value{
 Archivo fasta con los encabezados modificados
@@ -12,4 +15,8 @@ Archivo fasta con los encabezados modificados
 \description{
 Función para cambiar los encabezados de archvios fasta de tal forma que quede
 sólo el nombre de los organismos.
+}
+\examples{
+fastapath <- system.file("extdata", "Protseq.txt", package = "fastaformat")
+renameFasta(fastapath)
 }
