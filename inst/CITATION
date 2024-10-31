@@ -7,7 +7,7 @@ pkgVer <- function(pkg) {
 c(
 
     bibentry(bibtype="manual",
-        title = "",
+        title = "fastaformat",
         author = personList(
             as.person("JCSigala")
         ),
@@ -17,7 +17,7 @@ c(
         doi = '10.18129/B9.bioc.fastaformat'
     ),
     bibentry(bibtype="article",
-        title = "",
+        title = "fastaformat",
         author = personList(
             as.person("JCSigala")
         ),
