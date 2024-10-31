@@ -1,11 +1,14 @@
 # Función que da formato a secuencias de proteínas obtenidas de Blast.
 
-library(stringr)
-
 # Crear Función
 #' Renombrar encabezados de archivo fasta.
 #'
+#' @description
+#' Función para cambiar los encabezados de archvios fasta de tal forma que quede
+#' sólo el nombre de los organismos.
+#'
 #' @param input
+#' @import stringr
 #'
 #' @return Archivo fasta con los encabezados modificados
 #' @export
