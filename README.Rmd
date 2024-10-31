@@ -18,6 +18,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 [![GitHub issues](https://img.shields.io/github/issues/JCSigala/fastaformat)](https://github.com/JCSigala/fastaformat/issues)
 [![GitHub pulls](https://img.shields.io/github/issues-pr/JCSigala/fastaformat)](https://github.com/JCSigala/fastaformat/pulls)
+[![Codecov test coverage](https://codecov.io/gh/JCSigala/fastaformat/graph/badge.svg)](https://app.codecov.io/gh/JCSigala/fastaformat)
 <!-- badges: end -->
 
 The goal of `fastaformat` is to ...

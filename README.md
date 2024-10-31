@@ -9,6 +9,8 @@
 issues](https://img.shields.io/github/issues/JCSigala/fastaformat)](https://github.com/JCSigala/fastaformat/issues)
 [![GitHub
 pulls](https://img.shields.io/github/issues-pr/JCSigala/fastaformat)](https://github.com/JCSigala/fastaformat/pulls)
+[![Codecov test
+coverage](https://codecov.io/gh/JCSigala/fastaformat/graph/badge.svg)](https://app.codecov.io/gh/JCSigala/fastaformat)
 <!-- badges: end -->
 
 The goal of `fastaformat` is to …
@@ -75,21 +77,6 @@ Please run this yourself to check for any updates on how to cite
 
 ``` r
 print(citation('fastaformat'), bibtex = TRUE)
-#> To cite package 'fastaformat' in publications use:
-#> 
-#>   Last F (2024). _fastaformat: What the Package Does (One Line, Title
-#>   Case)_. R package version 0.99.0,
-#>   <https://github.com/JCSigala/fastaformat>.
-#> 
-#> A BibTeX entry for LaTeX users is
-#> 
-#>   @Manual{,
-#>     title = {fastaformat: What the Package Does (One Line, Title Case)},
-#>     author = {First Last},
-#>     year = {2024},
-#>     note = {R package version 0.99.0},
-#>     url = {https://github.com/JCSigala/fastaformat},
-#>   }
 ```
 
 Please note that the `fastaformat` was only made possible thanks to many
